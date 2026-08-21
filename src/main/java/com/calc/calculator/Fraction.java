@@ -23,6 +23,7 @@ public class Fraction {
         this.denominator = simplifiedDenominator;
     }
 
+// gcd
     private int gcd(int a, int b) {
         while (b != 0) {
             int temp = b;
