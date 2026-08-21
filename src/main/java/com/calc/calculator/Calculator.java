@@ -14,6 +14,7 @@ public class Calculator {
         return a * b;
     }
 
+    // fraction
     public String fraction(int numerator, int denominator) {
         if (denominator == 0) {
             System.out.println("Denom can't be zero");
